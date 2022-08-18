@@ -1,0 +1,101 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f7f5f7;
+}
+
+.container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.m-heading {
+  color: #6c6b70;
+  padding-left: 10px;
+}
+
+#refresh-btn {
+  border: none;
+  background-color: white;
+}
+
+.fa-refresh {
+  font-size: 20px;
+  color: #6c6b70;
+}
+
+main {
+  width: 100%;
+}
+
+#task-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-input {
+  width: 100%;
+  height: 3rem;
+  font-style: italic;
+  font-size: large;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+#submit {
+  background-color: white;
+  border: white;
+}
+
+.enter-key {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6c6b70;
+}
+
+.task-ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.task-li {
+  display: flex;
+  justify-content: space-between;
+  color: #6c6b70;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+}
+
+.trash {
+  display: flex;
+  gap: 10px;
+  padding-right: 10px;
+}
+
+.clear {
+  background-color: white;
+  border: none;
+  color: #6c6b70;
+  font-size: large;
+}
